@@ -180,9 +180,13 @@ main>section{
     margin-bottom: 0px;
     }
     .features{gap: 140px;}
+    .featured-architect{
+        width: 100%;
+    }
 
 @media screen and (max-width: 576px)  {
-    .navbar, .nav-links, .teams{
+    .navbar, .nav-links, .teams,
+    .features{
         flex-direction: column;
     }
 
@@ -195,5 +199,8 @@ main>section{
       .facts-container, 
       .sponsor-companies{justify-content: center;
         gap: 24px;}
+        #experience-badge{
+            margin: 20px;
+        margin-left: 20px;       }
 
     }
